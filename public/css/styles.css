@@ -80,10 +80,10 @@ input{
 button{
     position: relative;
     width: 20%;
-    height: 2.8rem;
+    height: 2.9rem;
     border-radius: 50px;
     border: none;
-    bottom: 2.8rem;
+    bottom: 2.9rem;
     left: 16.5rem;
     background: #f8bfbf;
     background-image: -webkit-linear-gradient(top, #f8bfbf, #ee8c8c);
@@ -167,5 +167,12 @@ button{
         left: -6.2rem;
         top: -.2rem;
 
+    }
+    #error{
+        margin-top: .2rem;
+        margin-left: 3rem;
+        font-size: 12px;
+        padding-bottom: 2rem;
+        visibility: hidden;
     }
 }
