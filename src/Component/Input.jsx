@@ -18,10 +18,19 @@ function Input(){
             document.getElementById("error").style.visibility = "hidden";
 
         }else{
-            document.getElementById("inputField").style.border="2px solid red";
-            document.getElementById("inputField").style.background ="url(/images/icon-error.svg) no-repeat 13rem";
-            document.getElementById("inputField").style.opacity = "1";
-            document.getElementById("error").style.visibility = "visible";
+            if(window.innerWidth > 1300){
+                document.getElementById("inputField").style.border="2px solid red";
+                document.getElementById("inputField").style.background ="url(/images/icon-error.svg) no-repeat 18rem";
+                document.getElementById("inputField").style.opacity = "1";
+                document.getElementById("error").style.visibility = "visible";
+            }
+            else{
+                document.getElementById("inputField").style.border="2px solid red";
+                document.getElementById("inputField").style.background ="url(/images/icon-error.svg) no-repeat 13rem";
+                document.getElementById("inputField").style.opacity = "1";
+                document.getElementById("error").style.visibility = "visible";
+            }
+
         }
 
         e.preventDefault();
