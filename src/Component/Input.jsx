@@ -38,7 +38,7 @@ function Input(){
 
     return <div className="input-field">
         <input id="inputField" onChange={handleInput} type="email" placeholder="Email Address" value={inputVal}/>
-        <button onClick={handleClick}/>
+        <button onClick={handleClick} aria-labelledby="Submit"/>
         <p id="error">Please provide a valid email</p>
     </div>
 }
