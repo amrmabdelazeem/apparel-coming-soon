@@ -30,7 +30,7 @@ body{
 }
 
 .image-container{
-    background: url("images/hero-mobile.jpg");
+    background: url("../images/hero-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -94,7 +94,7 @@ button{
     -webkit-box-shadow: 0px 7px 20px #ee8c8c;
     -moz-box-shadow: 0px 7px 20px #ee8c8c;
     box-shadow: 0px 7px 20px #ee8c8c;
-    background-image: url("images/icon-arrow.svg");
+    background-image: url("../images/icon-arrow.svg");
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -113,7 +113,7 @@ button{
     .container{
         display: grid;
         grid-template-columns: 58% 42%;
-        background: url("images/bg-pattern-desktop.svg");
+        background: url("../images/bg-pattern-desktop.svg");
         background-position: left;
     }
 
@@ -126,7 +126,7 @@ button{
         width: 10rem;
     }
     .image-container{
-        background: url("images/hero-desktop.jpg") no-repeat;
+        background: url("../images/hero-desktop.jpg") no-repeat;
         grid-area: 1/2/span 2/span 2;
         background-size: cover;
         height: 800px;
