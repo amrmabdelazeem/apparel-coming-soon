@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/apparel-coming-soon/static/js/main.eeabff7d.js",
+    "main.js": "/apparel-coming-soon/static/js/main.c677f5b3.js",
     "index.html": "/apparel-coming-soon/index.html",
-    "main.eeabff7d.js.map": "/apparel-coming-soon/static/js/main.eeabff7d.js.map"
+    "main.c677f5b3.js.map": "/apparel-coming-soon/static/js/main.c677f5b3.js.map"
   },
   "entrypoints": [
-    "static/js/main.eeabff7d.js"
+    "static/js/main.c677f5b3.js"
   ]
 }
