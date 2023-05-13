@@ -18,7 +18,7 @@ function Input(){
             document.getElementById("error").style.visibility = "hidden";
 
         }else{
-            if(window.innerWidth > 1300){
+            if(window.innerWidth > 1200){
                 document.getElementById("inputField").style.border="2px solid red";
                 document.getElementById("inputField").style.background ="url(images/icon-error.svg) no-repeat 18rem";
                 document.getElementById("inputField").style.opacity = "1";
