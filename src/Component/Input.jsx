@@ -26,7 +26,7 @@ function Input(){
             }
             else{
                 document.getElementById("inputField").style.border="2px solid red";
-                document.getElementById("inputField").style.background ="url(/images/icon-error.svg) no-repeat 13rem";
+                document.getElementById("inputField").style.background ="url('images/icon-error.svg') no-repeat 13rem";
                 document.getElementById("inputField").style.opacity = "1";
                 document.getElementById("error").style.visibility = "visible";
             }
