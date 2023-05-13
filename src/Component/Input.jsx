@@ -20,7 +20,7 @@ function Input(){
         }else{
             if(window.innerWidth > 1300){
                 document.getElementById("inputField").style.border="2px solid red";
-                document.getElementById("inputField").style.background ="url(/images/icon-error.svg) no-repeat 18rem";
+                document.getElementById("inputField").style.background ="url(images/icon-error.svg) no-repeat 18rem";
                 document.getElementById("inputField").style.opacity = "1";
                 document.getElementById("error").style.visibility = "visible";
             }
