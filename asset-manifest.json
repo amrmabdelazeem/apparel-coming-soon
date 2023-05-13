@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.4acce480.js",
-    "index.html": "/index.html",
-    "main.4acce480.js.map": "/static/js/main.4acce480.js.map"
+    "main.js": "/apparel-coming-soon/static/js/main.4acce480.js",
+    "index.html": "/apparel-coming-soon/index.html",
+    "main.4acce480.js.map": "/apparel-coming-soon/static/js/main.4acce480.js.map"
   },
   "entrypoints": [
     "static/js/main.4acce480.js"
